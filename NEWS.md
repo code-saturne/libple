@@ -1,5 +1,5 @@
-Release 2.0.3 (Unreleased)
-==========================
+Release 2.0.3 (November 8, 2021)
+================================
 
 Changes:
 --------
@@ -122,10 +122,10 @@ Changes:
 - Remove support for IRIX and Tru64 Unix, as these systems are
   now obsolete.
 
-Release 1.0.0 (June 26, 2011)
+Release 1.0.0 (July 28, 2011)
 =============================
 
 - Initial release of the "Parallel Location end Exchange" library,
-  based on the separation of the realted functionality from the
+  based on the separation of the related functionality from the
   "Finite Volume Mesh" library.
 
