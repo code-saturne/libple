@@ -27,6 +27,13 @@ Installation
 
 The installation system is based on the GNU autotools.
 
+If the code was obtained through a Git repository, a first step is required:
+```
+cd libple
+./sbin/bootstrap
+cd ..
+```
+
 To create a standalone installation of PLE, it is recommended
 to create a specific build directory, and run PLE's configure script
 from there:
