@@ -4,6 +4,12 @@ Release 2.0.4 (unreleased)
 Changes:
 --------
 
+- Remove libtool from build system.
+  This requires slightly more commplex rules in the Makefile.am's, but
+  should avoid issues on some systems where lbitool's absolute refusal
+  to ignore `.la` files even when they contain incorrect values
+  could cause more problems than it solves.
+
 - Add key/value-based settings functions:
   * `ple_locator_set_default_option`
   * `ple_locator_set_options`
