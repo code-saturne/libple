@@ -1,6 +1,11 @@
 Release 2.0.4 (unreleased)
 ==========================
 
+Bug fixes:
+----------
+
+- Fix detection of GCC compiler with some Cray versions.
+
 Changes:
 --------
 
