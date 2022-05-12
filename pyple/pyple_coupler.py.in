@@ -390,6 +390,15 @@ class pyple_coupler():
 
     # ----------------------------------
 
+    # ----------------------------------
+    def get_status(self):
+        """
+        Get status of apps from the coupling ple_mpi_set,
+        coherent with last sync call.
+        """
+
+        return self.ple_set.get_status()
+    # ----------------------------------
 
     # ----------------------------------
     def finalize(self, force_exit=True):
