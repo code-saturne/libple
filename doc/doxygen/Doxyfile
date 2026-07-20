@@ -1519,7 +1519,7 @@ FORMULA_TRANSPARENT    = YES
 # the section "Including formulas" for details.
 #
 # Starting with Doxygen 1.8.19, is should be possible to directly use the
-# $(srcdir)/docs/doxygen/cs_math_macros.tex here instead of defining
+# $(srcdir)/doc/doxygen/cs_math_macros.tex here instead of defining
 # a MATHJAX_CODEFILE (for which the current contents were generated using
 # a Doxygen Git build as of June 2020, and extracting the added contents
 # for generated files).
