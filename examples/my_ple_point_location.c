@@ -3058,7 +3058,7 @@ _locate_in_tetra(ple_lnum_t         elt_num,
 
     max_dist = -1.0;
 
-    for (j = 0; j < 4; j++){
+    for (j = 0; j < 4; j++) {
 
       dist = 2.*_ABS(shapef[j] - 0.5);
 
